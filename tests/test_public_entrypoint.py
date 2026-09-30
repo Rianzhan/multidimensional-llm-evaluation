@@ -15,6 +15,7 @@ def test_repository_entrypoint_can_validate_the_frozen_suite_without_network():
         "GLM_API_KEY": "test-only-glm-key",
         "KIMI_API_KEY": "test-only-kimi-key",
         "DEEPSEEK_API_KEY": "test-only-deepseek-key",
+        "PYTHONUTF8": "1",
     }
     completed = subprocess.run(
         [sys.executable, "evaluate.py", "--dry-run"],
@@ -22,6 +23,7 @@ def test_repository_entrypoint_can_validate_the_frozen_suite_without_network():
         env=environment,
         capture_output=True,
         text=True,
+        encoding="utf-8",
         check=False,
     )
 
