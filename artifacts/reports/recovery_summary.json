@@ -1,0 +1,516 @@
+{
+  "source_result_count": 495,
+  "target_count": 39,
+  "completed_target_count": 39,
+  "by_model": {
+    "DEEPSEEK": {
+      "total_results": 165,
+      "target_count": 3,
+      "completed_target_count": 3,
+      "recovered_from_truncation_count": 3,
+      "truncation_recovery_rate": 1.0,
+      "remaining_truncated_count": 0,
+      "recovery_correct_count": 0,
+      "recovery_format_error_count": 1,
+      "recovery_api_error_count": 0,
+      "strict_correct_count": 106,
+      "effective_correct_count": 106,
+      "strict_end_to_end_accuracy": 0.6424242424242425,
+      "effective_end_to_end_accuracy": 0.6424242424242425,
+      "accuracy_delta_percentage_points": 0.0,
+      "strict_status_counts": {
+        "correct": 106,
+        "truncated": 3,
+        "wrong": 56
+      },
+      "effective_status_counts": {
+        "correct": 106,
+        "format_error": 1,
+        "wrong": 58
+      }
+    },
+    "GLM": {
+      "total_results": 165,
+      "target_count": 11,
+      "completed_target_count": 11,
+      "recovered_from_truncation_count": 11,
+      "truncation_recovery_rate": 1.0,
+      "remaining_truncated_count": 0,
+      "recovery_correct_count": 9,
+      "recovery_format_error_count": 0,
+      "recovery_api_error_count": 0,
+      "strict_correct_count": 96,
+      "effective_correct_count": 105,
+      "strict_end_to_end_accuracy": 0.5818181818181818,
+      "effective_end_to_end_accuracy": 0.6363636363636364,
+      "accuracy_delta_percentage_points": 5.454545454545457,
+      "strict_status_counts": {
+        "correct": 96,
+        "truncated": 11,
+        "wrong": 58
+      },
+      "effective_status_counts": {
+        "correct": 105,
+        "wrong": 60
+      }
+    },
+    "KIMI": {
+      "total_results": 165,
+      "target_count": 25,
+      "completed_target_count": 25,
+      "recovered_from_truncation_count": 25,
+      "truncation_recovery_rate": 1.0,
+      "remaining_truncated_count": 0,
+      "recovery_correct_count": 0,
+      "recovery_format_error_count": 25,
+      "recovery_api_error_count": 0,
+      "strict_correct_count": 71,
+      "effective_correct_count": 71,
+      "strict_end_to_end_accuracy": 0.4303030303030303,
+      "effective_end_to_end_accuracy": 0.4303030303030303,
+      "accuracy_delta_percentage_points": 0.0,
+      "strict_status_counts": {
+        "correct": 71,
+        "format_error": 37,
+        "truncated": 25,
+        "wrong": 32
+      },
+      "effective_status_counts": {
+        "correct": 71,
+        "format_error": 62,
+        "wrong": 32
+      }
+    }
+  },
+  "records": [
+    {
+      "suite": "base",
+      "model_name": "DEEPSEEK",
+      "case_id": "mmlu-pro-physics-9160",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "GLM",
+      "case_id": "mmlu-pro-math-7901",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "correct",
+      "recovery_answer": "C",
+      "recovery_is_correct": true,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "GLM",
+      "case_id": "ifeval-3718",
+      "task_type": "instruction_following",
+      "original_status": "truncated",
+      "recovery_status": "wrong",
+      "recovery_answer": null,
+      "recovery_is_correct": false,
+      "recovery_max_tokens": 8192
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-computer-science-10709",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "GLM",
+      "case_id": "ifeval-279",
+      "task_type": "instruction_following",
+      "original_status": "truncated",
+      "recovery_status": "wrong",
+      "recovery_answer": null,
+      "recovery_is_correct": false,
+      "recovery_max_tokens": 8192
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-computer-science-10614",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "GLM",
+      "case_id": "ifeval-2275",
+      "task_type": "instruction_following",
+      "original_status": "truncated",
+      "recovery_status": "correct",
+      "recovery_answer": null,
+      "recovery_is_correct": true,
+      "recovery_max_tokens": 8192
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-physics-9458",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-physics-9978",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-physics-9418",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-physics-9667",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-law-1346",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-law-1569",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 8192
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-law-1303",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "base",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-law-1390",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-1",
+      "model_name": "GLM",
+      "case_id": "mmlu-pro-physics-9048::run-1",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "correct",
+      "recovery_answer": "J",
+      "recovery_is_correct": true,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-1",
+      "model_name": "GLM",
+      "case_id": "mmlu-pro-health-6104::run-1",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "correct",
+      "recovery_answer": "I",
+      "recovery_is_correct": true,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-1",
+      "model_name": "GLM",
+      "case_id": "mmlu-pro-law-1231::run-1",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "correct",
+      "recovery_answer": "B",
+      "recovery_is_correct": true,
+      "recovery_max_tokens": 8192
+    },
+    {
+      "suite": "stability-1",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-law-1303::run-1",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-1",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-law-1346::run-1",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-2",
+      "model_name": "DEEPSEEK",
+      "case_id": "mmlu-pro-physics-9160::run-2",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "wrong",
+      "recovery_answer": "B",
+      "recovery_is_correct": false,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-2",
+      "model_name": "GLM",
+      "case_id": "mmlu-pro-computer-science-10403::run-2",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "correct",
+      "recovery_answer": "F",
+      "recovery_is_correct": true,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-2",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-physics-9160::run-2",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-2",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-health-6104::run-2",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-2",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-law-1303::run-2",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-2",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-law-1346::run-2",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-3",
+      "model_name": "GLM",
+      "case_id": "mmlu-pro-math-8443::run-3",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "correct",
+      "recovery_answer": "A",
+      "recovery_is_correct": true,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-3",
+      "model_name": "DEEPSEEK",
+      "case_id": "mmlu-pro-physics-9160::run-3",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "wrong",
+      "recovery_answer": "A",
+      "recovery_is_correct": false,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-3",
+      "model_name": "GLM",
+      "case_id": "mmlu-pro-physics-9048::run-3",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "correct",
+      "recovery_answer": "J",
+      "recovery_is_correct": true,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "stability-3",
+      "model_name": "KIMI",
+      "case_id": "mmlu-pro-law-1346::run-3",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "robustness",
+      "model_name": "GLM",
+      "case_id": "robust-mmlu-pro-law-1303-reframe",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "correct",
+      "recovery_answer": "A",
+      "recovery_is_correct": true,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "robustness",
+      "model_name": "KIMI",
+      "case_id": "robust-mmlu-pro-computer-science-10439-shuffle",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "robustness",
+      "model_name": "KIMI",
+      "case_id": "robust-mmlu-pro-physics-9160-reframe",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "robustness",
+      "model_name": "KIMI",
+      "case_id": "robust-mmlu-pro-physics-9458-distractor",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "robustness",
+      "model_name": "KIMI",
+      "case_id": "robust-mmlu-pro-health-6501-reframe",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "robustness",
+      "model_name": "KIMI",
+      "case_id": "robust-mmlu-pro-law-1303-reframe",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "robustness",
+      "model_name": "KIMI",
+      "case_id": "robust-mmlu-pro-law-1346-distractor",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 8192
+    },
+    {
+      "suite": "robustness",
+      "model_name": "KIMI",
+      "case_id": "robust-mmlu-pro-law-1390-reframe",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    },
+    {
+      "suite": "robustness",
+      "model_name": "KIMI",
+      "case_id": "robust-mmlu-pro-law-1391-distractor",
+      "task_type": "multiple_choice",
+      "original_status": "truncated",
+      "recovery_status": "format_error",
+      "recovery_answer": null,
+      "recovery_is_correct": null,
+      "recovery_max_tokens": 4096
+    }
+  ]
+}

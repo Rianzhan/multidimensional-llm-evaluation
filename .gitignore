@@ -1,0 +1,35 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Runtime outputs: may contain raw provider responses
+runs/
+results_v2/
+checkpoints/
+*.log
+
+# Download/cache directories
+data/hf_cache/
+data/nltk_data/
+data/sources/
+
+# Local scratch files
+tmp/
+work/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

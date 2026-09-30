@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Multidimensional LLM Evaluation"
+message: "If you use this evaluation pipeline, please cite this repository."
+type: software
+authors:
+  - family-names: "Zeng"
+    given-names: "Yan"
+version: 1.0.0
+date-released: 2026-09-30
+license: Apache-2.0
+repository-code: "https://github.com/Rianzhan/multidimensional-llm-evaluation"

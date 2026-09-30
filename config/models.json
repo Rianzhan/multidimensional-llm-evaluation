@@ -1,0 +1,44 @@
+[
+  {
+    "name": "GLM",
+    "model": "glm-5.2",
+    "base_url": "https://api.z.ai/api/paas/v4/",
+    "api_key_env": "GLM_API_KEY",
+    "request_timeout_seconds": 60,
+    "min_request_interval_seconds": 1,
+    "max_attempts": 3,
+    "output_budgets_by_task_type": {
+      "multiple_choice": {"initial": 64, "recovery": 256},
+      "ifeval": {"initial": 2048, "recovery": 4096},
+      "product_rubric": {"initial": 1024, "recovery": 2048}
+    }
+  },
+  {
+    "name": "KIMI",
+    "model": "kimi-k2.6",
+    "base_url": "https://api.moonshot.cn/v1",
+    "api_key_env": "KIMI_API_KEY",
+    "request_timeout_seconds": 300,
+    "min_request_interval_seconds": 22,
+    "max_attempts": 3,
+    "output_budgets_by_task_type": {
+      "multiple_choice": {"initial": 64, "recovery": 1024},
+      "ifeval": {"initial": 2048, "recovery": 4096},
+      "product_rubric": {"initial": 1024, "recovery": 2048}
+    }
+  },
+  {
+    "name": "DEEPSEEK",
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "request_timeout_seconds": 60,
+    "min_request_interval_seconds": 1,
+    "max_attempts": 3,
+    "output_budgets_by_task_type": {
+      "multiple_choice": {"initial": 64, "recovery": 256},
+      "ifeval": {"initial": 2048, "recovery": 4096},
+      "product_rubric": {"initial": 1024, "recovery": 2048}
+    }
+  }
+]

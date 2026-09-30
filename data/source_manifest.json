@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-28T08:46:10.843605+00:00",
+  "sources": [
+    {
+      "name": "MMLU-Pro",
+      "source_url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+      "resolved_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+      "retrieved_at": "2026-09-28T08:46:10.663973+00:00",
+      "license": "Apache-2.0",
+      "fingerprints": {
+        "test": "c455ddf7fb9a9f05",
+        "validation": "9f00249349c36d5b"
+      },
+      "files": [
+        {
+          "path": "data/sources/mmlu_pro.jsonl",
+          "sha256": "c3f5f1a3eb0212738a0ce66a753270cc702b57e07c9b321a0f3f861230fdf7f3"
+        },
+        {
+          "path": "data/sources/mmlu_pro_api.json",
+          "sha256": "471d85649c8d9fb2701e7aebb14ac35bf86bdc23bc25f1e480980684654d023f"
+        },
+        {
+          "path": "data/sources/mmlu_pro_test.parquet",
+          "sha256": "0e24a191921c2f453518a537a8b2117bd137e7714d4ef1565e9ba06c1ecb9ad8"
+        },
+        {
+          "path": "data/sources/mmlu_pro_validation.parquet",
+          "sha256": "139423c23722e480c807ac4a191409a710cfce4eba744c1d641cf88e730e2078"
+        }
+      ]
+    },
+    {
+      "name": "IFEval",
+      "source_url": "https://github.com/google-research/google-research/tree/d36068b845da4c2b24927fee2cea1e6ef98dadda/instruction_following_eval",
+      "resolved_revision": "d36068b845da4c2b24927fee2cea1e6ef98dadda",
+      "retrieved_at": "2026-09-28T08:46:10.843605+00:00",
+      "license": "CC-BY-4.0 (data); Apache-2.0 (evaluator code)",
+      "files": [
+        {
+          "path": "third_party/ifeval/data/input_data.jsonl",
+          "sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49"
+        },
+        {
+          "path": "third_party/ifeval/evaluation_lib.py",
+          "sha256": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c"
+        },
+        {
+          "path": "third_party/ifeval/evaluation_main.py",
+          "sha256": "e6df07a04d25a0e7134933ba2400c26e0129a243e449c88df55043e583fc4b4a"
+        },
+        {
+          "path": "third_party/ifeval/instructions.py",
+          "sha256": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf"
+        },
+        {
+          "path": "third_party/ifeval/instructions_registry.py",
+          "sha256": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc"
+        },
+        {
+          "path": "third_party/ifeval/instructions_util.py",
+          "sha256": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b"
+        },
+        {
+          "path": "third_party/ifeval/requirements.txt",
+          "sha256": "1b1716c9ac21b9cc2bd0d7354ed8f7b6982ccf35598529601a7c08508acec94a"
+        }
+      ]
+    }
+  ]
+}
